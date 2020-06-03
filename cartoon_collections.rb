@@ -17,10 +17,16 @@ end
 
 def find_the_cheese(array)
   array.each do |item|
-    if array.include?
-  else
-    
-  
+    if array.include?("cheddar")
+      return "cheddar"
+    elsif array.include?("gouda")
+      return "gouda"
+    elsif array.include?("camembert")
+      return "camembert"
+    else 
+      return "nil"
+    end 
+  end 
 end
 
 cheese_types = ["cheddar", "gouda", "camembert"]
