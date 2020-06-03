@@ -16,7 +16,10 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-  array.include?
+  array.each do |item|
+    if array.include?
+  else
+    
   
 end
 
