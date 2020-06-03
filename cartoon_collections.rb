@@ -8,7 +8,6 @@ end
 
 def summon_captain_planet(array)
   array.map! {|planet| planet.capitalize!}
-  end
   array
 end
 
