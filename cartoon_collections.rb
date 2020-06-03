@@ -8,6 +8,7 @@ end
 
 def summon_captain_planet(array)
   array.map do |planet|
+    binding.pry
     planet.capitalize + "!"
   end 
   array
